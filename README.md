@@ -3,7 +3,8 @@
 #version  
 Ruby 2.7.0   
 Rails 6.0.2.1  
-MySQL 8.0  　
+MySQL 8.0  
+nginx 1.11.3
 
 #手順
 
@@ -21,7 +22,7 @@ MySQL 8.0  　
 
 7.　コマンドを実行　→　docker-compose exec db bash  
 
-8.　コマンドを実行　→　mysql -u root  
+8.　コマンドを実行　→　mysql -u root -p(パスワードはpassword)  
 
 9.　コマンドを実行　→　select User,Host,plugin from mysql.user;  
 
